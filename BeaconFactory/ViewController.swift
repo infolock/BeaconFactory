@@ -18,6 +18,12 @@ class ViewController: UIViewController {
         // BFCreate( BM_BLUESENSE );
         // BFCreate( BM_GELO );
         // BFCreate( BM_ESTIMOTE );
+        //
+        //  or...
+        // let namespace = "BeaconFactory"
+        // BFactory.create( manufacturer: \(namespace).\(BM_GENERIC)" )
+        // BFactory.create( manufacturer: \(namespace).BMGelo" )
+        // etc...
     }
 
     override func didReceiveMemoryWarning() {
